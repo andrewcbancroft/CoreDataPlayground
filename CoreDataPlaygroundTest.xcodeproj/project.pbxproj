@@ -12,6 +12,7 @@
 		F2590CE61D32D95C00F23BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2590CE41D32D95C00F23BD4 /* Main.storyboard */; };
 		F2590CE81D32D95C00F23BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2590CE71D32D95C00F23BD4 /* Assets.xcassets */; };
 		F2590CEB1D32D95C00F23BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2590CE91D32D95C00F23BD4 /* LaunchScreen.storyboard */; };
+		F2590CF41D32D96B00F23BD4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2590CF21D32D96B00F23BD4 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		F2590CE71D32D95C00F23BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2590CEA1D32D95C00F23BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2590CEC1D32D95C00F23BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2590CF31D32D96B00F23BD4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F2590CF51D32D9A200F23BD4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +57,14 @@
 		F2590CDF1D32D95C00F23BD4 /* CoreDataPlaygroundTest */ = {
 			isa = PBXGroup;
 			children = (
+				F2590CF51D32D9A200F23BD4 /* MyPlayground.playground */,
 				F2590CE01D32D95C00F23BD4 /* AppDelegate.swift */,
 				F2590CE21D32D95C00F23BD4 /* ViewController.swift */,
 				F2590CE41D32D95C00F23BD4 /* Main.storyboard */,
 				F2590CE71D32D95C00F23BD4 /* Assets.xcassets */,
 				F2590CE91D32D95C00F23BD4 /* LaunchScreen.storyboard */,
 				F2590CEC1D32D95C00F23BD4 /* Info.plist */,
+				F2590CF21D32D96B00F23BD4 /* Model.xcdatamodeld */,
 			);
 			path = CoreDataPlaygroundTest;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			files = (
 				F2590CE31D32D95C00F23BD4 /* ViewController.swift in Sources */,
 				F2590CE11D32D95C00F23BD4 /* AppDelegate.swift in Sources */,
+				F2590CF41D32D96B00F23BD4 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2590CF21D32D96B00F23BD4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2590CF31D32D96B00F23BD4 /* Model.xcdatamodel */,
+			);
+			currentVersion = F2590CF31D32D96B00F23BD4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2590CD51D32D95C00F23BD4 /* Project object */;
 }
